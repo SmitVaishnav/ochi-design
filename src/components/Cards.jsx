@@ -27,7 +27,7 @@ function Cards() {
               className="w-32"
             ></img>
           </div>
-          <div className=" absolute  card-footer w-full  -mt-[5.58vw] p-10 overflow-hidden flex items-center ">
+          <div className=" absolute  card-footer w-full  -mt-[5.58vw] p-5 overflow-hidden flex items-center ">
             <motion.button
               onMouseEnter={() => setHovering(true)}
               onMouseLeave={() => setHovering(false)}
@@ -65,7 +65,7 @@ function Cards() {
               className="w-32"
             ></img>
           </div>
-          <div className=" absolute  card-footer w-full  -mt-[5.58vw] p-10 overflow-hidden flex items-center ">
+          <div className=" absolute  card-footer w-full  -mt-[5.58vw] p-5 overflow-hidden flex items-center ">
             <motion.button
               onMouseEnter={() => setHovering2(true)}
               onMouseLeave={() => setHovering2(false)}
@@ -90,7 +90,7 @@ function Cards() {
                 transitionTimingFunction: "ease",
                 transitionDuration: ".8s",
               }}
-              className="uppercase border-[2px] rounded-full px-5 py-1"
+              className="uppercase border-[2px] tracking-tight rounded-full px-5 py-1"
             >
               business bootcamp alumni
             </motion.button>

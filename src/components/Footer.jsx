@@ -6,7 +6,7 @@ function Footer() {
     <div
       data-scroll
       data-scroll-speed="-.2"
-      className="w-full h-screen flex justify-between rounded-xl bg-zinc-900 p-16 font-['Test_Founders_Grotesk_X-Condensed'] "
+      className="w-full h-screen flex justify-between rounded-xl bg-zinc-900 p-16 font-['Test_Founders_Grotesk_x-Condensed'] "
     >
       <div className="w-1/2 h-full uppercase flex flex-col justify-between text-zinc-100">
         <div className="heading">
@@ -44,7 +44,7 @@ function Footer() {
       </div>
       <div className="w-1/2 text-zinc-100">
         <h1 className="text-[9vw] uppercase ">presentations</h1>
-        <div className="bottom-container flex justify-between items-center pr-10 font-['Neue_Montreal']">
+        <div className="bottom-container flex justify-between items-center pr-10 font-['neue_montreal']">
           <div className="flex flex-col gap-16">
             <div className="flex flex-col text-xl capitalize tracking-wide">
               {["s:", "instagram", "behance", "facebook", "linkedin"].map(

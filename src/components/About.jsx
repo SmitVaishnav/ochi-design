@@ -10,12 +10,12 @@ function About() {
       data-scroll-speed="-.1.5"
       className="w-full p-20 m-h-screen bg-[#CDEA68] rounded-3xl text-black"
     >
-      <h1 className="font-['Neue_Montreal'] text-[4vw] leading-[4.2vw] tracking-tight ">
+      <h1 className="font-['neue_montreal'] text-[4vw] leading-[4.2vw] tracking-tight ">
         Ochi is a strategic partner for fast-growing tech businesses that need
         to raise funds, sell products, explain complex ideas, and hire great
         people.
       </h1>
-      <div className="w-full border-t-[1px] pt-6 -pb-12 mt-24  border-[#99a46e] flex font-['Neue_Montreal'] ">
+      <div className="w-full border-t-[1px] pt-6 -pb-12 mt-24  border-[#99a46e] flex font-['neue_montreal'] ">
         <div className="w-1/2 ">
           <h1 className="text-7xl">Our approch:</h1>
           <motion.button
@@ -23,7 +23,7 @@ function About() {
             onMouseLeave={() => setHovering(false)}
             className=" bg-zinc-900 rounded-full mt-5 h-[3.7vw] w-[12vw] tracking-wide text-white flex justify-between  items-center uppercase"
           >
-            <div className="ml-7">Read More</div>
+            <div className="ml-7 tracking-tight">Read More</div>
             <motion.div
               initial={{ scale: 0.3 }}
               animate={isHovering ? { scale: 1 } : { scale: 0.3 }}

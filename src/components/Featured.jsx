@@ -11,7 +11,7 @@ function Featured() {
       className="w-full py-20 bg-zinc-900 rounded-3xl  "
     >
       <div className="w-full px-20 border-b-[1px] pb-12 border-zinc-700 ">
-        <h1 className="text-7xl font-['Neue_Montreal'] tracking-wide">
+        <h1 className="text-7xl font-['neue_montreal'] tracking-wide">
           Featured projects
         </h1>
       </div>
@@ -22,7 +22,7 @@ function Featured() {
             onMouseLeave={() => setHovering(false)}
             className="card-container w-1/2  h-[65vh] relative"
           >
-            <h1 className="absolute flex overflow-hidden left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-[9vw]  font-['Test_Founders_Grotesk_X-Condensed'] leading-none  text-[#CDEA68]">
+            <h1 className="absolute flex overflow-hidden left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-[9vw]  font-['Test_Founders_Grotesk_x-Condensed'] leading-none  text-[#CDEA68]">
               {"FYDE".split("").map((item, index) => {
                 return (
                   <motion.span
@@ -60,7 +60,7 @@ function Featured() {
             onMouseLeave={() => setHovering2(false)}
             className="card-container w-1/2  h-[65vh] relative"
           >
-            <h1 className="absolute flex overflow-hidden right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-[9vw]  font-['Test_Founders_Grotesk_X-Condensed'] leading-none text-[#CDEA68] ">
+            <h1 className="absolute flex overflow-hidden right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-[9vw]  font-['Test_Founders_Grotesk_x-Condensed'] leading-none text-[#CDEA68] ">
               {"TRAWA".split("").map((item, index) => {
                 return (
                   <motion.span

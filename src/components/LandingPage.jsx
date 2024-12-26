@@ -27,7 +27,7 @@ function LandingPage() {
                 )}
                 <h1
                   key={index}
-                  className="uppercase leading-[6.5vw] flex items-center h-full text-[8.5vw] font-['Test_Founders_Grotesk_X-Condensed']"
+                  className="uppercase leading-[6.5vw] flex items-center h-full text-[8.5vw] font-['Test_Founders_Grotesk_x-Condensed'] font-semibold"
                 >
                   {" "}
                   {item}

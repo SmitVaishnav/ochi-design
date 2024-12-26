@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Test_Founders_Grotesk_x-Condensed";
+    src: url("./fonts/TestFoundersGroteskX-Condensed-Bold-BF66175e96aecb2.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Test_Founders_Grotesk_x-Condensed";
+    src: url("./fonts/TestFoundersGroteskX-Condensed-Light-BF66175e9703aba.otf") format("opentype");
+    font-weight: lighter;
+}
+@font-face {
+    font-family: "Test_Founders_Grotesk_x-Condensed";
+    src: url("./fonts/TestFoundersGroteskX-Condensed-Medium-BF66175e96ee81a.otf") format("opentype");
+    font-weight: medium;
+}
+@font-face {
+    font-family: "Test_Founders_Grotesk_x-Condensed";
+    src: url("./fonts/TestFoundersGroteskX-Condensed-Regular-BF66175e972fbe3.otf") format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Test_Founders_Grotesk_x-Condensed";
+    src: url("./fonts/TestFoundersGroteskX-Condensed-Semibold-BF66175e972a7d6.otf") format("opentype");
+    font-weight: semibold;
+}
+@font-face {
+    font-family: "neue_montreal";
+    src: url("./fonts/NeueMontreal-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "neue_montreal";
+    src: url("./fonts/NeueMontreal-Light.otf") format("opentype");
+    font-weight: lighter;
+}
+@font-face {
+    font-family: "neue_montreal";
+    src: url("./fonts/NeueMontreal-Medium.otf") format("opentype");
+    font-weight: medium;
+}
+@font-face {
+    font-family: "neue_montreal";
+    src: url("./fonts/NeueMontreal-Regular.otf") format("opentype");
+    font-weight: normal;
+}
+

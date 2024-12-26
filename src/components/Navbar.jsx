@@ -22,7 +22,7 @@ function Navbar() {
   }, [prevScrollPos, visible]);
   return (
     <div
-      className={`fixed z-[999] w-full px-20 py-7 font-['Neue_Montreal'] flex justify-between items-center bg-opacity-50 backdrop-filter backdrop-blur-sm transition-all duration-300 ${
+      className={`fixed z-[999] w-full px-20 py-7 font-['neue_montreal'] flex justify-between items-center bg-opacity-50 backdrop-filter backdrop-blur-sm transition-all duration-300 ${
         visible ? "top-0" : "-top-24"
       }`}
     >
